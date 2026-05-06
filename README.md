@@ -9,8 +9,8 @@
 > [!WARNING]
 >
 > Qrackbind Limitations:
-> * Only local builds currently work. The github workflows are broken due to python version mismatches between qrackbind and this package.
-> * An update version of qrackbind is needed to support MCH gates.
+> * Only local builds currently work. The github workflows are *broken* due to python version mismatches between qrackbind and this package.
+> * An updated version of qrackbind is needed to support MCH gates. [Pending]
 > * qrackbind wheels are only published as github assets. Requires updating the source path in pyproject.toml
 
 Bloqade is a Python SDK for neutral atom quantum computing. It provides a set of embedded domain-specific languages (eDSLs) for programming neutral atom quantum computers. Bloqade is designed to be a high-level, user-friendly SDK that abstracts away the complexities of neutral atom quantum computing, allowing users to focus on developing quantum algorithms and compilation strategies for neutral atom quantum computers.
