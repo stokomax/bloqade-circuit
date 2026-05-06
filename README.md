@@ -1,4 +1,4 @@
-# Welcome to Bloqade Circuit -- A component package of QuEra's Neutral Atom SDK
+# Welcome to Bloqade Circuit -- A component package of QuEra's Neutral Atom SDK [with Qrackbind support]
 
 [![CI](https://github.com/QuEraComputing/bloqade-circuit/actions/workflows/ci.yml/badge.svg)](https://github.com/QuEraComputing/bloqade-circuit/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/QuEraComputing/bloqade-circuit/graph/badge.svg?token=BpHsAYuzdo)](https://codecov.io/gh/QuEraComputing/bloqade-circuit)
@@ -6,6 +6,12 @@
 [![Documentation](https://img.shields.io/badge/Documentation-6437FF)](https://bloqade.quera.com/)
 [![DOI](https://zenodo.org/badge/629628885.svg)](https://zenodo.org/doi/10.5281/zenodo.11114109)
 
+> [!WARNING]
+>
+> Qrackbind Limitations:
+> * Only local builds currently work. The github workflows are broken due to python version mismatches between qrackbind and this package.
+> * An update version of qrackbind is needed to support MCH gates.
+> * qrackbind wheels are only published as github assets. Requires updating the source path in pyproject.toml
 
 Bloqade is a Python SDK for neutral atom quantum computing. It provides a set of embedded domain-specific languages (eDSLs) for programming neutral atom quantum computers. Bloqade is designed to be a high-level, user-friendly SDK that abstracts away the complexities of neutral atom quantum computing, allowing users to focus on developing quantum algorithms and compilation strategies for neutral atom quantum computers.
 
